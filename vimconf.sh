@@ -16,7 +16,6 @@ mv vim-monokai-tasty.vim ./colors
 # Plugins
 mkdir pack
 cd pack
-cd ../..
 mkdir -p lightline/start
 cd lightline/start
 git clone https://github.com/itchyny/lightline.vim.git 
