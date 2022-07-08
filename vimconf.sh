@@ -14,9 +14,6 @@ mv ~/AAAAAAAAAAAAAAAAAAAA ./colors/mydefault.vim
 # Plugins
 mkdir pack
 cd pack
-mkdir -p ale/start
-cd ale/start
-git clone https://github.com/dense-analysis/ale.git 
 cd ../..
 mkdir -p lightline/start
 cd lightline/start
@@ -50,9 +47,3 @@ mkdir -p nerdtree/start
 cd nerdtree/start
 git clone https://github.com/preservim/nerdtree.git
 cd ../..
-mkdir -p autocompleteplugins/start
-cd autocompleteplugins/start
-git clone https://github.com/prabirshrestha/vim-lsp.git
-git clone https://github.com/prabirshrestha/asyncomplete.vim.git
-cd ../..
-
