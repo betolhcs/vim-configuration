@@ -10,6 +10,8 @@ cd .vim
 # Color Theme
 mkdir colors
 mv ~/AAAAAAAAAAAAAAAAAAAA ./colors/mydefault.vim
+wget https://raw.githubusercontent.com/patstockwell/vim-monokai-tasty/master/colors/vim-monokai-tasty.vim
+mv vim-monokai-tasty.vim ./colors
 
 # Plugins
 mkdir pack
