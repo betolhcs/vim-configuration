@@ -30,15 +30,7 @@ set laststatus=2
 let g:lightline = {
     \'colorscheme': 'wombat',
 \}
-" Ale Linters
-let g:ale_linters = {
-    \'rust': ['analyzer'],
-    \'python': ['flake8', 'mypy', 'pylint'],
-    \'javascript': ['eslint', 'prettier'],
-    \'css': ['csslint'],
-    \'c': ['cc'],
-    \'cpp': ['cc']
-\}
+
 
 " Put these lines at the very end of your vimrc file.
 " Load all plugins now.
