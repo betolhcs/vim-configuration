@@ -19,8 +19,7 @@ set hlsearch
 set scrolloff   =1
 
 let g:mydefault_italic = 1
-colorscheme vim-monokai-tasty
-"colorscheme mydefault
+colorscheme gruvbox
 
 " Plugin Config
 let g:indent_guides_enable_on_vim_startup = 1
