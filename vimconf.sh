@@ -2,15 +2,13 @@
 
 # Configuration
 mv ./vimrc ~/.vimrc
-mv ./mydefault.vim ~/AAAAAAAAAAAAAAAAAAAA
 cd ~ 
 mkdir .vim
 cd .vim
 
-# Color Theme
+# Color Theme (Backup)
 mkdir colors
-mv ~/AAAAAAAAAAAAAAAAAAAA ./colors/mydefault.vim
-wget https://raw.githubusercontent.com/patstockwell/vim-monokai-tasty/master/colors/vim-monokai-tasty.vim
+wget https://raw.githubusercontent.com/patstockwell/vim-monokai-tasty/master/colors/vim-monokai-tasty.vim 
 mv vim-monokai-tasty.vim ./colors
 
 # Plugins
@@ -26,7 +24,7 @@ git clone https://github.com/ap/vim-css-color.git
 cd ../..
 mkdir -p fugitive/start
 cd fugitive/start
-git clone https://github.com/tpope/vim-fugitive.git 
+git clone https://github.com/tpope/vim-fugitive.git
 cd ../..
 mkdir -p nerdcommenter/start
 cd nerdcommenter/start
@@ -48,3 +46,5 @@ mkdir -p nerdtree/start
 cd nerdtree/start
 git clone https://github.com/preservim/nerdtree.git
 cd ../..
+mkdir -p colorscheme/start
+git clone https://github.com/morhetz/gruvbox.git
