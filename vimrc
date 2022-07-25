@@ -16,9 +16,8 @@ set ignorecase
 set history     =1000
 set showmatch
 set hlsearch
-set scrolloff   =1
+set scrolloff   =2
 
-let g:mydefault_italic = 1
 colorscheme gruvbox
 
 " Plugin Config
