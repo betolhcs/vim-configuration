@@ -20,12 +20,9 @@ set scrolloff   =2
 
 colorscheme gruvbox
 
-" Plugin Config
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#3d3d3d ctermbg=237
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#2c2c2c ctermbg=236
+" Lightline Config
 set laststatus=2
+set noshowmode
 let g:lightline = {
     \'colorscheme': 'wombat',
 \}
