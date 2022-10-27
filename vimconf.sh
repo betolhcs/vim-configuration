@@ -58,5 +58,10 @@ mkdir -p nerdtree/start
 cd nerdtree/start
 git clone https://github.com/preservim/nerdtree.git
 cd ../..
-mkdir -p colorscheme/start
+mkdir -p gruvbox/start
+cd gruvbox/start
 git clone https://github.com/morhetz/gruvbox.git
+cd ../..
+mkdir -p supertab/start
+cd supertab/start
+git clone https://github.com/ervandew/supertab.git
