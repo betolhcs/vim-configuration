@@ -17,6 +17,7 @@ set history     =1000
 set showmatch
 set hlsearch
 set scrolloff   =2
+set background  =dark
 
 colorscheme gruvbox
 
